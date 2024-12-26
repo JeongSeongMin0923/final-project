@@ -1,0 +1,179 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.search-bar {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  border-radius: 15px;
+  font-size: 0.875rem;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+.kakao-sign-in-button {
+  width: 56px;
+  height: 56px;
+
+  background-image: url(./features/user/assets/images/kakao-sign-in.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+
+  cursor: pointer;
+}
+
+.naver-sign-in-button {
+  width: 56px;
+  height: 56px;
+
+  background-image: url(./features/user/assets/images/naver-sign-in.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+
+  cursor: pointer;
+}
+
+.primary-button-lg {
+  border-radius: 6px;
+  padding: 8px 24px;
+
+  box-sizing: border-box;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(58, 87, 232, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
+}
+
+.disable-button-lg {
+  border-radius: 6px;
+  padding: 8px 24px;
+
+  box-sizing: border-box;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(138, 146, 166, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: default;
+}
+
+.primary-button-lg:hover {
+  opacity: 0.95;
+}
+
+.text-link-lg {
+  box-sizing: border-box;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(113, 113, 113, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
+}
+
+.text-link-lg:hover {
+  color: rgba(40, 40, 40, 1);
+}
+
+.full-width {
+  width: 100%;
+}
